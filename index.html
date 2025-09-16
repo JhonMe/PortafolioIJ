@@ -6,6 +6,8 @@
     <title>Imer Jhon - Portafolio</title>
     <!-- Vincular Font Awesome (CDN) en el <head> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
     <!-- Favicon -->
     <link rel="icon" href="development.png" type="image/png">
 
@@ -697,6 +699,11 @@
                 justify-content: center;
             }
         }
+        .skill-name i {
+            font-size: 32px; /* aumenta el tamaño (puedes poner 30px si quieres más) */
+            margin-right: 12px; /* separa un poco el icono del porcentaje */
+            vertical-align: middle; /* alinea con el porcentaje */
+        }
     </style>
 </head>
 <body>
@@ -837,84 +844,92 @@
         <!-- Habilidades -->
         <div class="section fade-in" id="habilidades">
             <h2>Habilidades</h2>
-            <div class="skills-grid">
-                <div>
-                    <div class="skill">
-                        <div class="skill-name">
-                            <span>JavaScript</span>
-                            <span>30%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="--width: 30%"></div>
-                        </div>
+           <div class="skills-grid">
+            <div>
+                <div class="skill">
+                    <div class="skill-name">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <span>30%</span>
                     </div>
-                    <div class="skill">
-                        <div class="skill-name">
-                            <span>HTML</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="--width: 85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill-name">
-                            <span>Python</span>
-                            <span>40%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="--width: 40%"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill-name">
-                            <span>Node.js</span>
-                            <span>25%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="--width: 25%"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill-name">
-                            <span>Java</span>
-                            <span>45%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="--width: 45%"></div>
-                        </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 30%"></div>
                     </div>
                 </div>
-                <div>
-                    <div class="skill">
-                        <div class="skill-name">
-                            <span>UI/UX Design</span>
-                            <span>88%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="--width: 88%"></div>
-                        </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <i class="devicon-html5-plain colored"></i>
+                        <span>85%</span>
                     </div>
-                    <div class="skill">
-                        <div class="skill-name">
-                            <span>CSS/SCSS</span>
-                            <span>92%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="--width: 92%"></div>
-                        </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 85%"></div>
                     </div>
-                    <div class="skill">
-                        <div class="skill-name">
-                            <span>SQL</span>
-                            <span>40%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="--width: 40%"></div>
-                        </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <i class="devicon-python-plain colored"></i>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 40%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <i class="devicon-nodejs-plain colored"></i>
+                        <span>25%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 25%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <i class="devicon-java-plain colored"></i>
+                        <span>45%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 45%"></div>
                     </div>
                 </div>
             </div>
+
+            <div>
+                <div class="skill">
+                    <div class="skill-name">
+                        <i class="devicon-figma-plain colored"></i>
+                        <span>88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 88%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <i class="devicon-css3-plain colored"></i>
+                        <span>92%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 92%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">
+                        <i class="devicon-mysql-plain colored"></i>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 40%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         </div>
 
         <!-- Contacto -->
